@@ -36,7 +36,7 @@ public class DiceGame {
           */
 
         // Niveau 3
-       /*
+
         Scanner scanner = new Scanner(System.in);
         int guess;
         int de1, de2, total1;
@@ -58,7 +58,7 @@ public class DiceGame {
                System.out.println("Bravo ! Tu as deviné le bon résultat 🎉");
 
 
-        */
+
 
 
         }
