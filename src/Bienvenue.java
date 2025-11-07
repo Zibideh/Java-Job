@@ -48,9 +48,10 @@ import java.util.Scanner;
          */
 
 
-         //
+        //
 
-         // + addition
+        // + addition
+        /*
           System.out.println(1 + 2); // 3
              // - soustraction
           System.out.println(3 - 1); // 2
@@ -67,14 +68,17 @@ import java.util.Scanner;
 
 
 
+         */
 
 
-          // condition if/else if/else
+        // condition if/else if/else
 
           /* Si la condition dans le if entre les parenthes est vrais
           on execute le code entre les {...} si no on pase aux ligne
            de code entre les {...} du else
            */
+
+           /*
            int age = 7;
            if (age >= 1 && age < 18 ) {
                  System.out.println("You'er young");
@@ -85,9 +89,72 @@ import java.util.Scanner;
             } else {
                System.out.println("wrong number or no valid");
 
+            */
 
-           }
+         /*
+        int[] arr = {84, 12, 1, 43, 5, 0};
 
- }
+        for (int i = 1; i < arr.length; i++) {
+            int key = arr[i];
+            int j = i - 1;
 
-}
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            arr[j + 1] = key;
+        }
+
+        // Affichage du tableau trié
+        System.out.print("Tableau trié : ");
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+          }
+
+
+          */
+
+
+      /*
+
+           // Transtipage implicite
+
+             Scanner scanner = new Scanner(System.in);
+
+             // Lire un entier n
+              System.out.print("Entrez un entier : ");
+             int n = scanner.nextInt();
+
+              int somme = 0;
+
+             // Parcourir tous les entiers strictement inférieurs à n
+             for (int i = 1; i < n; i++ ) {
+
+                 // Vérifier si i est multipe de l'un des nombres
+                 if (i % 4 == 0 || i % 5 == 0 || i % 7 == 0 || i % 9 == 0 || i % 11 == 0) {
+
+                     somme += i;
+                 }
+        }        // Aficher le résultat
+
+              System.out.println("La somme est : " + somme);
+
+         scanner.close();
+
+         */
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+

@@ -1,7 +1,4 @@
-import java.net.SocketTimeoutException;
-import java.util.Scanner;
-
-    public class Exemple {
+public class Etape1et2 {
     public static  void main() {
 
 
